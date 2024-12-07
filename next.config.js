@@ -4,8 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/school-website' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/school-website' : '',
+  // Replace REPO_NAME with your actual repository name
+  basePath: '/school-website',
+  assetPrefix: '/school-website',
 }
 
 module.exports = nextConfig
